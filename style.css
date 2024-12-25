@@ -1,0 +1,53 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.input-field{
+
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.input-field input{
+
+    padding: 10px  80px 10px 10px;
+    outline: none;
+    border: none;
+}
+
+.submit{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 3%;
+    transform: translateX(-40px);
+}
+
+.submit img{
+
+    width: 40px;
+    outline: none;
+}
+
+#para{
+
+    color: white;
+    padding-top: 10px;
+    display: none;
+}
